@@ -1,0 +1,16 @@
+﻿ID_veicolo			numero incrementale			PRIMARY KEY, 	NOTNULL
+									UNIQUE AI	
+Marca				stringa				VARCHAR(15)	NOTNULL
+Modello			stringa				VARCHAR (15)	NOTNULL
+Cilindrata			stringa				VARCHAR (10)	NOTNULL
+CV				stringa				VARCHAR(8)	NOTNULL		
+Carburante			stringa				VARCHAR (8)	NOTNULL
+Km				numero					SMALL		NOTNULL
+Porte				numero					TINYINT	NOTNULL
+Anno_immatricolazione	data						YEAR		NOTNULL
+Colore				stringa				VARCHAR (20)
+Disponibilità			booleano						DEFAULT
+Prezzo				numero					SMALL		NOTNULL
+Foto				stringa						DEFAULT
+
+
